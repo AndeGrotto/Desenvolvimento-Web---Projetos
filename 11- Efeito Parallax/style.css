@@ -1,9 +1,15 @@
+/*@font-face {
+    font-family: "SpiderGhost";
+    src: url(../fontes/SPIDERGHOST.woff);
+}*/
+
 body, html {
     margin: 0;
     font: 16px "Lato", sans-serif;
     color: #777;
     height: 100%;
     border: 1px solid red;
+    /*font-family: "SpiderGhost";*/
 }
 
 .conteudo {
