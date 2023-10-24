@@ -1,0 +1,39 @@
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+    /* column - column-reverse - row - row-reverse */
+    flex-direction: row;
+
+    /* nowrap - wrap - wrap-reverse !!! Usado para definir se os itens dentro do container vão quebrar para a proxima linha ou não */
+    flex-wrap: nowrap;
+
+    /* 
+    !! justify-content !! usado para alinhar horizontalmente
+    flex-start -> blocos a esquerda
+    flex-end -> blocos a direita
+    center -> blocos centralizados
+    space-between -> blocos divididos no espaço total
+    space-around -> margem separada igualmente em todos lados
+    */
+    justify-content: space-around;
+
+
+    /* 
+    !! align-items !! usado para alinhar verticalmente
+    stretch -> opção padrão, aonde esticam até o tamanho total da área
+    center -> alinham ao centro
+    flex-start -> itens ficam colados na parte superior
+    flex-end -> itens ficam colados na parte inferior
+    baseline -> são alinhados a partir da base superior, se colocar um padding em um dos itens, todos irão ser alinhados a partir dele
+    */
+    align-items: baseline;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+}
